@@ -1,0 +1,30 @@
+body {
+   
+    
+    background-color: #548799;
+  }
+
+  picture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;}
+
+  img {
+    
+    border-radius: 50px;
+    box-shadow: 0 0 20px #117;
+    
+  }
+
+  img.disabled {
+    opacity: 0.3;
+  }
+  
+  
+  picture.es-pequeño {
+    width: 50px;
+  }
+  picture.es-grande {
+    width: 175px;
+  }
